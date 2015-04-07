@@ -1,0 +1,72 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.left {
+  float: right;
+}
+
+.right {
+  float: left;
+}
+
+.post {
+  border-radius: 3px;
+  background-color: #E8EDEB;
+  padding: 15px;
+  padding-bottom: 35px;
+}
+
+.put {
+  border-radius: 3px;
+  background-color: #E8EDEB;
+  padding: 15px;
+  padding-bottom: 35px;
+}
+
+
+.delete {
+  border-radius: 3px;
+  background-color: #E8EDEB;
+  padding: 15px;
+  padding-bottom: 35px;
+  clear: both;
+}
+
+.get {
+  border-radius: 3px;
+  background-color: #E8EDEB;
+  padding: 15px;
+  padding-bottom: 52px;
+}
+
+.data {
+  background-color: #E8EDEB;
+  height: 100%;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+tr {
+  border-bottom: 1px solid gray;  
+}
+
+td {
+  width: 30%;
+  padding: 8px 5px;
+}
+
+thead {
+  font-size: 20px;
+}
+
+input {
+  height: 37px;
+}

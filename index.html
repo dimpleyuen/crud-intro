@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Crud API Menu</h1>
+  <!-- MENU -->
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="get-pill"><a href="#">Get</a></li>
+      <li role="presentation" class="post-pill"><a href="#">Post</a></li>
+      <li role="presentation" class="put-pill"><a href="#">Put</a></li>
+      <li role="presentation" class="delete-pill"><a href="#">Delete</a></li>
+   </ul>
+
+  <!-- GET -->
+    <div class="get">
+      <h2>READ</h2>
+      <div class="left">
+      <button class="get-request btn btn-danger">LIST ALL</button>
+      <button class="reset btn btn-danger">CLEAR</button>
+      </div>
+      <div class="right">
+      <input type="text" class="id-get" name="" value="" placeholder="ID">
+      <button type="submit" class="submit-id-get btn btn-success">Search By ID</button>
+      <input type="text" class="name-get" name="" value="" placeholder="Name">
+      <button type="submit" class="submit-name-get btn  btn-success">Search By Name</button>
+      </div>
+      <br>
+    </div>
+
+  <!-- Post -->
+    <div class="post">
+      <h2>Create</h2>
+      <input class="user-post" type="text" name="" value="" placeholder="User">
+      <input class="title-post" type="text" name="" value="" placeholder="Title">
+      <input class="text-post" type="text" name="" value="" placeholder="Text">
+      <button class="submit-post btn btn-success" type="submit">Submit</button>
+      <br>
+    </div>
+    
+  <!-- Put -->
+    <div class="put">
+      <h2>UPDATE</h2>
+      <input class="id-put" type="text" name="" value="" placeholder="ID">
+      <input class="title-put" type="text" name="" value="" placeholder="Title">
+      <input class="text-put" type="text" name="" value="" placeholder="Text">
+      <button class="submit-put btn btn-success" type="submit">Submit</button>
+    </div>
+
+  <!-- Delete -->
+    <div class="delete">
+      <h2>DELETE</h2>
+
+      <input class="id-delete" type="text" name="" value="" placeholder="ID">
+      <button class="submit-delete btn btn-success" type="submit">Submit</button>
+      <br>
+    </div>
+    
+  <!-- TABLE -->
+    <br>
+    <div class="data">
+      <h1>Database</h1>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <td class="col-xs-2">User</td>
+              <td class="col-xs-2">Title</td> 
+              <td class="col-xs-3">Text</td>
+              <td class="col-xs-3">ID</td>         
+              <td class="col-xs-2">Delete</td>         
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
